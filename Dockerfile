@@ -12,4 +12,4 @@ WORKDIR /phpggc
 
 RUN chmod +x phpggc
 
-ENTRYPOINT ["/phpggc/phpggc"]
+ENTRYPOINT ["bash"]
