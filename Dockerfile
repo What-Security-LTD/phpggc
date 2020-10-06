@@ -10,6 +10,8 @@ RUN git clone https://github.com/ambionics/phpggc
 
 WORKDIR /phpggc
 
+RUN wget "https://vignette.wikia.nocookie.net/blackadder/images/f/fc/Flashheart_%28Rik_Mayall%29.jpg" -O test.jpg
+
 RUN chmod +x phpggc
 
 ENTRYPOINT ["bash"]
